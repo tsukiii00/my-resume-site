@@ -150,8 +150,8 @@ If it says `remote origin already exists`, run `git remote -v` and ask a facilit
 git push -u origin main
 ```
 
-- [ ] **GitHub** · refresh your repo — your files are there
-- [ ] **GitHub** · **Actions** may show a **red X** on deploy. That is normal. Do **not** rewrite files to “fix” it yet — Pages is Step 6.
+- [x] **GitHub** · refresh your repo — your files are there
+- [x] **GitHub** · **Actions** may show a **red X** on deploy. That is normal. Do **not** rewrite files to “fix” it yet — Pages is Step 6.
 
 **If push asks for a password:** GitHub will **not** accept your normal account password. Prefer the browser sign-in window if it opens. Or create a [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `repo` scope and paste that as the password (username = your GitHub username). Do not force-push.
 
@@ -184,7 +184,7 @@ Anything written as `something: [ ... ]` supports **multiple entries**. One item
 
 ### 4b · Skills (several tags)
 
-- [ ] **VS Code** · search (`Cmd`/`Ctrl`+`F`) for `skills:`
+- [x] **VS Code** · search (`Cmd`/`Ctrl`+`F`) for `skills:`
 - [ ] **VS Code** · each quoted string (`'Python',`) is one skill chip — replace samples with yours
 - [ ] **VS Code** · add more skills by adding more quoted lines inside `[ ... ]`; delete a line to remove a skill
 - [ ] **Browser** · Skills section on localhost matches you

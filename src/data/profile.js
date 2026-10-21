@@ -7,158 +7,179 @@
 // ============================================================================
 
 export const profile = {
-  photo: '/photo.svg',
+  photo: '/photo.jpg',
   resume: '',
 
-  name: 'Jordan Lee',
-  role: 'MIS & Cybersecurity Student',
+  name: 'Eduardo Rodriguez',
+  role: 'Cybersecurity Specialist',
   location: 'Wichita, Kansas',
-  tagline: 'Learning security and systems by building small, useful projects.',
+  tagline: 'Cybersecurity student with hands-on expertise in network defense, memory forensics, and infrastructure security.',
   about:
-    'Undergraduate focused on management information systems and cybersecurity. Most of my experience so far is coursework, campus involvement, and personal projects. I like turning class assignments into things I can show and explain.',
-  badge: 'Looking for internships',
-  email: 'jordan.lee@example.com',
-  github: 'https://example.com/your-github',
-  linkedin: 'https://example.com/your-linkedin',
+    'Highly motivated Cybersecurity student and CompTIA Network+ certified with hands-on expertise in network defense and memory forensics. Proficient in foundational programming using C++ and SQL, alongside Python scripting and industry-standard security tools like Nmap, Metasploit, and Volatility 3. Combines practical infrastructure experience including custom DNS/DHCP routing and honeypot development with a strong foundation in the MITRE ATT&CK framework to analyze and mitigate emerging threats.',
+  badge: 'CompTIA Network+ Certified',
+  email: 'rodriguezeduardo786@gmail.com',
+  github: 'https://github.com/tsukiii00',
+  linkedin: 'https://www.linkedin.com/in/edrodrig',
 
   skills: [
+    'Network Defense',
+    'Memory Forensics',
+    'C++',
     'Python',
+    'TypeScript',
+    'PowerShell',
     'SQL',
-    'Networking basics',
+    'HTML',
+    'FastAPI',
+    'AWS Bedrock',
+    'Nmap',
+    'Metasploit',
+    'Volatility 3',
+    'MITRE ATT&CK',
+    'Docker',
+    'Virtualization',
+    'Incident IQ',
+    'DNS / DHCP Routing',
+    'Pi-hole',
     'Linux',
-    'Git & GitHub',
-    'Technical writing',
+    'Windows',
+    'MacOS',
   ],
 
   education: [
     {
       school: 'Wichita State University',
-      degree: 'B.B.A. Management Information Systems',
-      detail: 'Expected graduation · 2027',
+      degree: 'Bachelor of Science in Cybersecurity (Minors in Psychology & Computer Science)',
+      detail: '01/2024 – 05/2027 · Dean’s Honor Roll',
+    },
+    {
+      school: 'Dodge City Community College',
+      degree: 'Associate of Science',
+      detail: '08/2022 – 12/2023 · Vice President’s Honor Roll',
     },
   ],
 
   // Leave [] if you do not have coursework to list yet.
-  coursework: [
-    {
-      title: 'Secure Coding Practices',
-      detail: 'Threats, input validation, and safer defaults in web apps.',
-    },
-    {
-      title: 'Network Security',
-      detail: 'Segmentation, monitoring basics, and lab attack/defense scenarios.',
-    },
-    {
-      title: 'Systems Analysis & Design',
-      detail: 'Requirements, process mapping, and stakeholder communication.',
-    },
-    {
-      title: 'Database Management',
-      detail: 'Relational modeling, SQL queries, and access control concepts.',
-    },
-  ],
+  coursework: [],
 
-  activities: [
-    {
-      title: 'Cyber Club Member',
-      organization: 'Campus technology club',
-      detail: 'Weekly labs, capture-the-flag practice, and peer study sessions.',
-    },
-    {
-      title: 'Volunteer Help Desk',
-      organization: 'Community nonprofit',
-      detail: 'Helped staff with device setup, password resets, and basic security hygiene.',
-    },
-  ],
+  activities: [],
 
   // Add jobs or internships when you have them. Empty stays hidden.
-  experience: [],
+  experience: [
+    {
+      title: 'USD 259 Tech Support Student Assistant',
+      organization: 'Ennovar at Wichita State University · Wichita, KS',
+      date: '08/2026 – Present',
+      summary: '',
+      highlights: [
+        'Managed and resolved daily hardware, software, and network connectivity requests across the USD 259 district utilizing the Incident IQ ticketing system.',
+      ],
+    },
+    {
+      title: 'Overnight Freight Associate',
+      organization: 'Home Depot · Wichita, KS',
+      date: '02/2024 – Present',
+      summary: '',
+      highlights: [
+        'Executed precise inventory management and autonomously prioritized daily operational tasks during overnight operations to ensure total store readiness prior to opening.',
+      ],
+    },
+    {
+      title: 'Team Lead',
+      organization: 'Walmart Supercenter · Dodge City, KS',
+      date: '03/2021 – 03/2022',
+      summary: '',
+      highlights: [
+        'Directed and scheduled a 20-employee cross-functional team, optimizing daily workflows to consistently meet quarterly performance and customer satisfaction goals.',
+      ],
+    },
+  ],
 
-  certifications: [],
-  honors: [{ title: 'Dean’s List', detail: 'Selected terms' }],
-  interests: ['Teaching others what I just learned', 'Home lab tinkering'],
-  learning: ['Web app security labs', 'GitHub Actions basics'],
+  certifications: [
+    { name: 'CompTIA Network+', issuer: 'Issued 08/2026' },
+    { name: 'CompTIA Security+', issuer: 'Exam Voucher Secured' },
+    { name: 'AWS AI Practitioner', issuer: 'Exam Scheduled' },
+    { name: 'AWS Cloud Practitioner', issuer: 'Exam Voucher Secured' },
+  ],
+
+  honors: [
+    { title: 'Dean’s Honor Roll', detail: 'Wichita State University' },
+    { title: 'Vice President’s Honor Roll', detail: 'Dodge City Community College' },
+  ],
+
+  interests: [
+    'Honeypot development',
+    'Capture the Flag (CTF) challenges',
+    'Home lab tinkering & networking',
+    'Malware analysis & threat mitigation',
+  ],
+
+  learning: [
+    'AWS Cloud & AI certifications',
+    'Advanced penetration testing',
+    'CompTIA Security+',
+  ],
 
   projects: [
     {
-      title: 'Campus Resource Finder',
-      slug: 'campus-resource-finder',
-      summary: 'Class project: a simple site concept that helps students find tutoring and advising services.',
+      title: 'Network Infrastructure & Traffic Management',
+      slug: 'network-infrastructure-traffic-management',
+      summary:
+        'Localized home network solution configuring a Raspberry Pi Zero 2W as a network-wide ad blocker with custom DHCP/DNS routing.',
       overview:
-        'A course project that turns a messy list of campus services into a searchable page students can actually use during the first weeks of the semester.',
+        'Engineered a localized home network solution by configuring a Raspberry Pi Zero 2W as a network-wide ad blocker (Pi-hole). Successfully executed a DHCP swap to optimize local network traffic routing and DNS management.',
       problem:
-        'New students kept asking the same questions in Discord and office hours: where is tutoring, when is advising open, and which building do I walk to?',
+        'Default ISP routers lack DNS visibility, expose connected devices to telemetry and ads, and provide minimal control over internal network routing.',
       approach: [
-        'Interviewed five classmates about how they look for help today.',
-        'Sketched a search-first layout with short service cards and building names.',
-        'Built a static HTML/CSS prototype and walked peers through two usability passes.',
+        'Engineered a localized home network solution by configuring a Raspberry Pi Zero 2W as a network-wide ad blocker (Pi-hole).',
+        'Successfully executed a DHCP swap to optimize local network traffic routing and DNS management.',
+        'Configured customized domain sinkholes to safeguard connected devices against malicious traffic.',
       ],
       outcome:
-        'Classmates could find a service in under a minute in our demo. The write-up became a portfolio piece I can explain end-to-end.',
-      skills: ['HTML', 'CSS', 'User research'],
-      link: 'https://example.com/your-project-repo',
-      screenshots: [
-        {
-          src: '/projects/campus-resource-finder-1.svg',
-          alt: 'Search screen with tutoring and advising cards',
-          caption: 'Search-first home view with service cards.',
-        },
-        {
-          src: '/projects/campus-resource-finder-2.svg',
-          alt: 'Detail card for the writing center',
-          caption: 'Service detail with hours, booking, and directions.',
-        },
-      ],
+        'Secured local network traffic, eliminated network-wide ads across all connected devices, and optimized DNS response times.',
+      skills: ['Raspberry Pi', 'Pi-hole', 'DNS / DHCP', 'Networking', 'Linux'],
+      link: 'https://github.com/tsukiii00',
+      screenshots: [],
     },
     {
-      title: 'Home Lab Notes',
-      slug: 'home-lab-notes',
-      summary: 'Personal notes and diagrams from standing up a small Linux lab at home.',
+      title: 'Production of a Cybersecurity CTF Website',
+      slug: 'cybersecurity-ctf-website',
+      summary:
+        'Interactive Capture the Flag (CTF) platform built with a 10-person team to promote cybersecurity education.',
       overview:
-        'A living set of notes for a small home lab: network sketch, host inventory, and the commands I actually reuse.',
+        'Collaborated within a 10-person development team to architect and launch an interactive Capture the Flag (CTF) platform aimed at promoting cybersecurity education. Designed an intuitive UI and engineered multiple security modules, focusing on decryption, password cracking, web exploitation, IP analysis, and OSINT.',
       problem:
-        'I kept losing track of VLANs, snapshots, and which VM was safe to break during class labs.',
+        'Students and newcomers need accessible, hands-on, gamified environments to practice practical offensive and defensive security concepts.',
       approach: [
-        'Documented a simple segmented layout (router → firewall VM → lab hosts).',
-        'Captured baseline commands for SSH, updates, and service checks.',
-        'Added “before you experiment” reminders so I do not wipe the wrong disk.',
+        'Collaborated within a 10-person development team to architect and launch an interactive Capture the Flag (CTF) platform.',
+        'Designed an intuitive UI for participant challenge navigation and score progression.',
+        'Engineered multiple security challenge modules focusing on decryption, password cracking, web exploitation, IP analysis, and OSINT.',
       ],
       outcome:
-        'Faster lab setup for coursework and a clearer story when interviewers ask how I learn outside class.',
-      skills: ['Linux', 'Networking', 'Documentation'],
-      link: 'https://example.com/your-project-repo',
-      screenshots: [
-        {
-          src: '/projects/home-lab-notes-1.svg',
-          alt: 'Network diagram and terminal notes for the home lab',
-          caption: 'Network sketch plus the checklist I keep next to the terminal.',
-        },
-      ],
+        'Successfully launched an interactive learning tool that empowers students to learn core cybersecurity techniques hands-on.',
+      skills: ['Web Development', 'UI Design', 'Decryption', 'Web Exploitation', 'OSINT', 'IP Analysis'],
+      link: 'https://github.com/tsukiii00',
+      screenshots: [],
     },
     {
-      title: 'Secure Setup Checklist',
-      slug: 'secure-setup-checklist',
-      summary: 'A short checklist for safer project setup before a class demo or team handoff.',
+      title: 'Real-Time Scam Detector & Multi-Agent Analysis Pipeline',
+      slug: 'real-time-scam-detector-multi-agent-analysis-pipeline',
+      summary:
+        'Browser extension pairing TypeScript with an asynchronous FastAPI backend and a multi-agent verification system on AWS Bedrock to classify fraudulent sites.',
       overview:
-        'A one-page checklist for student teams: secrets, scans, branch protection, and handoff notes before a demo.',
+        'Engineered a browser extension architecture pairing a TypeScript client with an asynchronous FastAPI backend for live DOM content scraping and telemetry ingestion. Deployed a multi-agent verification system via the Strands Agent SDK on AWS Bedrock, executing parallel heuristic evaluations and LLM-driven inference to classify fraudulent sites.',
       problem:
-        'Group projects often shipped with sample passwords in the repo and no owner listed for production access.',
+        'Modern phishing and fraudulent scam sites rapidly evolve, rendering conventional static blocklists ineffective against zero-day deceptive pages and social engineering tactics.',
       approach: [
-        'Pulled common misses from class demos and club projects.',
-        'Turned them into a short checklist teammates can finish in ten minutes.',
-        'Tested the list on our own midterm repo before presenting.',
+        'Engineered a browser extension architecture pairing a TypeScript client with an asynchronous FastAPI backend for live DOM content scraping and telemetry ingestion.',
+        'Deployed a multi-agent verification system via the Strands Agent SDK on AWS Bedrock, executing parallel heuristic evaluations and LLM-driven inference to classify fraudulent sites.',
+        'Streamlined asynchronous telemetry processing to evaluate web risk indicators with minimal user latency.',
       ],
       outcome:
-        'Fewer last-minute secrets in slides, and a reusable artifact I bring into internships.',
-      skills: ['Security basics', 'Git', 'Documentation'],
-      link: 'https://example.com/your-project-repo',
-      screenshots: [
-        {
-          src: '/projects/secure-setup-checklist-1.svg',
-          alt: 'Checklist document with security setup items',
-          caption: 'The checklist layout used before demos and handoffs.',
-        },
-      ],
+        'Enabled high-fidelity, real-time threat detection and classification of fraudulent sites using automated multi-agent LLM analysis and DOM heuristics.',
+      skills: ['TypeScript', 'FastAPI', 'Python', 'AWS Bedrock', 'Strands Agent SDK', 'Multi-Agent Systems', 'DOM Scraping'],
+      link: 'https://github.com/tsukiii00',
+      screenshots: [],
     },
   ],
 };
